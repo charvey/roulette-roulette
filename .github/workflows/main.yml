@@ -8,5 +8,5 @@ jobs:
         with:
           dotnet-version: "6.x"
           include-prerelease: true
-      - run: dotnet build
-      - run: dotnet test
+      - run: dotnet build src
+      - run: dotnet test src
